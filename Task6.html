@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Html form elements</title>
+    </head>
+    <body>
+    <h1>Multiple choice question using radio button</h1>
+    <h2>Python is ______ Language.</h2>
+        <input type="radio" name="choice" value="Scripting"> Scripting
+        <input type="radio" name="choice" value="Programming"> Programming
+        <input type="radio" name="choice" value="Application"> Application
+        <input type="radio" name="choice" value="None of These"> None of These
+    <h1>Checkbox</h1>
+        <p>Qulification: </p>
+	    <input type="Checkbox" name="SSLC" id="sslc">
+	    <label for="sslc">SSLC</label>
+	    <input type="Checkbox" name="UG" id="ug">
+	    <label for="ug">UG</label>
+	    <input type="Checkbox" name="PG" id="pg">
+	    <label for="PG">PG</label>
+    <h1>Single line input field</h1>
+        <label for="review">Single line</label><br>
+        <input type="text" id="review" name="review">
+    <h1>Multiple line input</h1>
+        <label for="revieww">Review:</label>
+        <textarea id="revieww" name="revieww" rows="4" cols="30"></textarea>
+    <h1>Dropdown</h1>
+        <label for="state">Choose your state from this list:</label>
+        <input list="states" id="state" name="state" />
+        <datalist id="states">
+        <option value="Karnataka"></option>
+        <option value="Maharastra"></option>
+        <option value="Tamilnadu"></option>
+        <option value="Telangana"></option>
+        <option value="Kerala"></option>
+        </datalist>
+    </body>
+</html>
