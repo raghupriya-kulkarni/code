@@ -13,7 +13,31 @@
 		border: 5px dashed skyblue;
 		text-align: center;
 	}
-	#info tr:nth-child(odd){background-color: lightgray;}
+	#info tr:nth-child(odd){background-color: lightgray;
+			       }
+	div.static{
+            position:static;
+            border:2px solid black;
+        }
+        div.relative{
+            position:relative;
+            width:200px;
+            border:1.5px solid brown;
+        }
+        div.fixed{
+            width:500px;
+            position:fixed;
+            border:1px solid coral;
+        }
+        div.absoluterelative{
+            width:900px;
+            position:relative;
+            border:1.5px solid brown;
+        }
+        div.absolute{
+            position:absolute;
+            border:1.5px solid brown;
+        }
 </style>
 <body>
 	<h1 align="center">Inoformation</h1>
@@ -37,6 +61,18 @@
 			<td>Hospet</td>
 		</tr>
 	</table>
-
+  <h2><B>Static Positioning</B></h2>
+            <div class="static">Static positioning
+            </div>
+                <h3><B>Relative Positioning</B></h3>
+                <div class="relative">Relative
+                </div>
+            <h4><B>Fixed Positioning</B></h4>
+            <div class="fixed">Fixed
+            </div>
+                <h4><B>Absolute relative Positioning</B></h4>
+                <div class="absoluterelative">Absolute relative</div>
+                    <h4><B>Absolute Positioning</B></h4>
+                    <div class="absolute">Absolute</div>
 </body>
 </html>
